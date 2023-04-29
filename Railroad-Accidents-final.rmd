@@ -1,6 +1,8 @@
 ---
 title: "Project"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 date: "2023-03-30"
 ---
 
@@ -26,7 +28,7 @@ library(usmap)
 df_rail <- read_csv("Rail_Equipment_Accident_Incident_Data.csv")
 ```
 
-```{r}
+```
 head(df_rail)
 ```
 

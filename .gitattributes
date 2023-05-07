@@ -1,2 +1,4 @@
+*.rmd linguist-detectable=true
+*.html linguist-detectable=false
 public/* linguist-generated
 scot-ui/public/* linguist-generated
